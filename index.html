@@ -3,23 +3,21 @@
 
 <head>
 <title>Welcome to Firefox</title>
-<link rel="stylesheet" type="text/css" href="BrowserStartPage.css">
+<link rel="stylesheet" type="text/css" href="/Users/Dave/Documents/Github/Bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="CSS.css">
 </head>
 
 <body>
 
 <img src="file:///path/to/Banner.png">
 
-<div class="container" align="center">
-	<div class="top" align="center">
+<div id="container" align="center">
+	<div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
 		<input type="button" onclick="location.href='http://www.4chan.org/g/';" value="/g/" />
 		<input type="button" onclick="location.href='http://www.Reddit.com';" value="Reddit" />
 		<input type="button" onclick="location.href='http://www.Youtube.com';" value="Youtube" />
 		<input type="button" onclick="location.href='http://wiki.archlinux.org';" value="ArchWiki" />
 		<input type="button" onclick="location.href='http://www.Ultimate-Guitar.com';" value="Tabs" />
-	</div>
-	<br>
-	<div class="bottom" align="center">
 		<input type="button" onclick="location.href='http://mail.google.com';" value="Gmail" />
 		<input type="button" onclick="location.href='about:addons';" value="Addons" />
 		<input type="button" onclick="location.href='http://www.myanimelist.net';" value="MAL" />
@@ -27,6 +25,9 @@
 		<input type="button" onclick="location.href='http://openbox.org';" value="Openbox" />
 	</div>
 </div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="/Users/Dave/Documents/Github/Bootstrap/js/bootstrap.min.js"></script>
 
 </body>
 
